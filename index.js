@@ -23,7 +23,7 @@ app.get('/', (req,res)=>{
     res.send('Welcome to Socio API');
 })
 
-const PORT = process.env.PORT || 5000
+var PORT = process.env.PORT || 5000
 // if (process.env.NODE_ENV === 'production') {
 //     app.use(express.static('client/build'));
 
